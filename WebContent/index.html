@@ -2,9 +2,142 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Welcome to Scott's Market</title>
 </head>
 <body>
+<h1>Welcome to Scott's Market</h1>
+	<table>
+		<tr>
+			<th></th>
+			<th>Name</th>
+			<th>Price</th>
+			<th></th>
+		</tr>
+
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\toothpaste.jpg"
+				width="80" height="80"></td>
+			<td>Toothpaste</td>
+			<td>1.50</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Toothpaste', 1.50)" /></td>
+		</tr>
+
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\deodorant.jfif"
+				width="80" height="80"></td>
+			<td>Deodorant</td>
+			<td>4.50</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Deoderant', 4.50)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\papertowel.jfif"
+				width="80" height="80"></td>
+			<td>Paper Towel</td>
+			<td>14.25</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Paper Towel', 14.25)" /></td>
+		</tr>
+
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\toiletpaper.jfif"
+				width="80" height="80"></td>
+			<td>Toilet Paper</td>
+			<td>15.37</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Toilet Paper', 15.37)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\facewash.jfif"
+				width="80" height="80"></td>
+			<td>Face Wash</td>
+			<td>5.09</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Face Wash', 5.09)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\nectarines.jfif"
+				width="80" height="80"></td>
+			<td>Nectarines</td>
+			<td>3.05</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Nectarines', 3.05)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\bananas.jfif"
+				width="80" height="80"></td>
+			<td>Bananas</td>
+			<td>0.95</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Bananas', 0.95)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\grapes.jfif"
+				width="80" height="80"></td>
+			<td>Grapes</td>
+			<td>2.12</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Grapes', 2.12)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\peanutbutter.jfif"
+				width="80" height="80"></td>
+			<td>Peanut Butter</td>
+			<td>6.49</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Peanut Butter', 6.49)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\jelly.jfif"
+				width="80" height="80"></td>
+			<td>Grape Jelly</td>
+			<td>3.79</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Grape Jelly', 3.79)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\bread.jfif"
+				width="80" height="80"></td>
+			<td>Bread</td>
+			<td>1.37</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Bread', 1.37)" /></td>
+		</tr>
+		<tr>
+			<td><img
+				src="C:\Users\Scott\eclipse-workspace\Capstone4\pics.jpg\chips.jfif"
+				width="80" height="80"></td>
+			<td>Potato Chips</td>
+			<td>2.79</td>
+			<td><input type="button" value="add to cart"
+				onclick="addToCart('Potato Chips', 2.79)" /></td>
+		</tr>
+
+
+
+
+	</table>
+
+	<input type="button" value="checkout" onclick="printCart()" />
+
+
+	<p id="finalCart"></p>
+
+
+	<script src="script.js"></script>
+
 
 </body>
 </html>
